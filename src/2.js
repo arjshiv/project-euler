@@ -1,3 +1,8 @@
+/**
+ * Sum of all even Fobinacci numbers up to limit
+ * @param {int} limit
+ * @returns {int}
+ */
 function bruteForceFib(limit) {
     var f1 = 0;
     var f2 = 1;
@@ -17,6 +22,12 @@ function bruteForceFib(limit) {
     return sum;
 }
 
+/**
+ * Sum of all even Fibonacci numbers up to limit
+ * Uses a slightly faster algorithm
+ * @param {int} limit
+ * @returns {int}
+ */
 function betterBruteForceFib(limit) {
     var f6 = 0;
     var f3 = 2;
