@@ -4,7 +4,6 @@
  * @returns {int}
  */
 function largestPrimeFactor(num) {
-    //count up from 2 to sqrt
     if (num % 2 === 0) {
         return 2;
     }
